@@ -56,5 +56,11 @@ module.exports = class {
 
         document.getElementById('try').innerHTML = x;
     }
+    arithmeticfunction() {
+        var a = 5;
+        var x = (7 + 10) * a;
+        document.getElementById('test').innerHTML = x;
+
+    }
 
 }
