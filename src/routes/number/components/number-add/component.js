@@ -52,9 +52,9 @@ module.exports = class {
         document.getElementById('demo').innerHTML = Date();
     }
     addfunction() {
-        var x = 5;
-        var y = 10;
-        var z = x + y;
-        document.getElementById('try').innerHTML = z;
+        var x = 5 * 10;
+
+        document.getElementById('try').innerHTML = x;
     }
+
 }
